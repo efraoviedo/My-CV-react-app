@@ -1,0 +1,9 @@
+#root {
+  background-color: #b3adad;
+}
+
+.Header,
+main {
+  min-width: 1100px;
+  text-align: center;
+}

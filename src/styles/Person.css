@@ -1,0 +1,120 @@
+.CVOutput {
+  width: 100%;
+  display: flex;
+  color: white;
+  overflow: hidden;
+  align-self: flex-start;
+}
+
+/* DETAILS */
+.CVOutput .details {
+  width: 35%;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: #082540;
+}
+
+.details .personal-info {
+  margin-bottom: 0.75rem;
+}
+
+.details .name {
+  margin-bottom: 0.1rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.details div {
+  margin-bottom: 0.5rem;
+}
+
+.details hr {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.details .title {
+  margin-top: 0.75rem;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.details .job-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.details .badge {
+  margin: 0.5rem 0;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 0.25rem;
+  background-color: #fb9300;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.details-item {
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+}
+
+/* INFO */
+.CVOutput .info {
+  flex-grow: 1;
+  padding: 2rem 2.2rem;
+  background-color: white;
+  color: #082540;
+}
+
+.info div {
+  margin-bottom: 2rem;
+}
+
+.info .title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.info hr {
+  margin: 0 0 0.75rem;
+  color: #d2dfeb;
+}
+
+.info .summary {
+  margin: 0 0.25rem;
+  font-size: 1.075rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  background-color: #e9e2d8;
+}
+
+.info ul {
+  padding-left: 2rem;
+}
+
+.info li {
+  font-size: 1.1rem;
+}
+
+.info > div > h5.title {
+  margin-bottom: 0rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.info .education {
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.info .education-year {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}

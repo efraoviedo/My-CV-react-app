@@ -1,0 +1,41 @@
+.CVInput {
+  width: 100%;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.CVI-container {
+  margin: 0 2rem;
+  margin-top: 2.25rem;
+}
+
+.CVI-container input {
+  width: 100%;
+  padding-left: 0.75rem;
+  height: 2.25rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ced4da;
+}
+
+.CVI-container div {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.CVI-container button {
+  justify-self: flex-start;
+}
+
+.CVI-title {
+  /* align-self: start; */
+  margin-bottom: 1.25rem;
+}
+
+#description {
+  height: 100px;
+}
+
+.button ::before deleteBtn {
+  background-color: rgb(213, 228, 213);
+}
